@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gazisoftware.hayvanimibuldular.FullscreenActivity">
+
+    <item
+        android:id="@+id/hakkinda_menu"
+        android:orderInCategory="100"
+        android:title="@string/hakkinda_menu"
+        app:showAsAction="always"
+        android:onClick="hakkinda_activiy_goster"/>
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hayvanımı Buldular</string>
+    <string name="karekod_tara">Karekodu Tara</string>
+    <string name="bilgi_1">Çevrimdışıyken bile taradığın bilgilere ulaşabilirsin!</string>
+    <string name="title_activity_bilgiler">İletişim Bilgileri</string>
+    <string name="hakkinda_menu">Hakkında</string>
+    <string name="hakkinda">Gazi Yazılım</string>
+</resources>

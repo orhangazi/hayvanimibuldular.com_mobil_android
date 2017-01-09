@@ -1,0 +1,48 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.gazisoftware.hayvanimibuldular.FullscreenActivity"
+    tools:ignore="NewApi"
+    tools:targetApi="HONEYCOMB">
+
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:text="@string/karekod_tara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/karekod_tara" />
+
+        <TextView
+            android:text="@string/bilgi_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bilgi1"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:paddingBottom="5sp"
+            android:textColor="@android:color/white" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webview"/>
+
+    </LinearLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>
